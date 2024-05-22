@@ -1,0 +1,27 @@
+.cntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.parent {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.trigger-btn {
+  padding: 3rem;
+  background-color: #dfebeb;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.trigger-btn:hover {
+  background-color: #abb4bb;
+  transform: scale(1);
+}
